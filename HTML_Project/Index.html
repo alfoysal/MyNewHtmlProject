@@ -1,0 +1,128 @@
+﻿<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>ABC Transport Ltd.</title>
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
+    <script src="Scripts/Index.js"></script>
+
+    <link href="CSS/IndexStyle.css" rel="stylesheet" />
+    <script src="Scripts/fromTo.js"></script>
+</head>
+<body>
+
+    <div class="container_full header_bg">
+        <div class="fix container">
+            <header id="header">
+                <div id="logo">
+                </div>
+                <div class="logo_left">
+                    <h1>ABC Transport Ltd.</h1>
+                </div>
+                <nav>
+                    <ul id="menu">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="Pages/AboutUs.html">About Us</a></li>
+                        <li><a href="Pages/ContactUs.html">Contact Us</a></li>
+                        <li><a href="Pages/PhotoGalary.html">Photo Gallary</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <a href="#" style="text-decoration:none;color:aqua;margin:10px; ">Log In</a><a href="#" style="">Sine Up</a>
+                </div>
+            </header>
+        </div>
+    </div>
+    <div class="slideImage container">
+        <div id="slideshow">
+            <div>
+                <img src="Images/SliderImage/Barbi-Galileo-HD-interior.jpg" />
+            </div>
+            <div>
+                <img src="../Images/SliderImage/images2.jpeg">
+            </div>
+            <div>
+                <img src="../Images/SliderImage/New-DD-Landscape-1.png" alt="ABC Transport">
+            </div>
+            <div>
+                <img src="Images/SliderImage/1860x1050-Volvo-9900-Kortrijk-Edition-2017-newsintro.jpg" />
+            </div>
+
+            <div>
+                <img src="Images/SliderImage/hqdefault.jpg" />
+            </div>
+            <div>
+            <img src="Images/SliderImage/1860x1050-Volvo-9400-Internal-teaser-IND-2019-teaser2.jpg" />
+            </div>
+        </div>
+        <div class="toFrom">
+            <noscript>This page requires JavaScript be available and enabled to function properly</noscript>
+            <label for="from">From:</label>
+            <select id="from" onchange="counterChange(this);destinationChange(this)">
+                <option value="empty">Select</option>
+                <option value="Dhaka">Dhaka</option>
+                <option value="Chattogram">Chattogram</option>
+                <option value="Cox's Bazar">Cox's Bazar</option>
+            </select>
+            <select id="counter">
+                <option value="0">Select a Counter</option>
+            </select>
+            <label for="destination">Destination :</label>
+            <select id="destination">
+                <option value="0">Select Your Destination</option>
+            </select>
+        </div>
+    </div>
+  
+    <!-- Rooms -->
+    <section class="rooms mt50">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="lined-heading"><span>Welcome To ABC Transport </span></h2>
+                    <p>
+                        ABC Transport is apparently a family owned transport company specializing in
+                        transportation of passenger bus services. From a humble beginning of
+                        local services, our transport system encompasses Dhaka -Chattogram-Cox's Bazar routes.
+                    </p>
+                    <p>
+                        We worked hard and honest, we put our vision forward and explored ways and means
+                        to continuously improve passenger comfort. We take pride in mentioning that our fleet of buses includes the most luxurious models
+                        of VOLVO and SCANIA Imported from Europe, which provide the ultimate in passenger
+                        comfort and safety.
+                    </p>
+                    <p>
+                        The company at present operates more then 20 (Twinty) buses on schedule routes
+                        employing over 90 trained staff .
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+        <div class="container_full">
+            <div class="fix container">
+                <footer id="footer">
+                    <div class="social_area">
+                        <ul>
+                            <li class="facebook"><a href="#"></a></li>
+                            <li class="twitter"><a href="#"></a></li>
+                            <li class="pinterest"><a href="#"></a></li>
+                            <li class="instagram"><a href="#"></a></li>
+                        </ul>
+                    </div>
+                    <h1>ABC Transport Ltd.</h1>
+                    <div class="">
+                        <address>
+                            87,Agrabad Commercial Area ,Chattogram-4100,Bangladesh<br />
+                            <b>Phone:</b>031-8315380<br />
+                            <b>Email:</b>contact@abctransport.com
+                        </address>
+                    </div>
+                    <p> &copy; 2019 abctransport.com  -  All Rights Reserved  </p>
+                   
+                </footer>
+            </div>
+        </div>
+</body>
+</html>
